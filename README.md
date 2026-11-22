@@ -1,20 +1,20 @@
 # Apex Commercial Roofing website
 
-A responsive, single-page marketing website for Apex Commercial Roofing, built with plain HTML, CSS, and JavaScript. No build tooling or dependencies are required.
+A responsive, single-page marketing website for a fictional commercial roofing company. Built with plain HTML, CSS, and JavaScript; no build tooling or dependencies are required.
 
 ## Run locally
 
 Open `index.html` in a browser, or serve this directory with any static web server. The site can be hosted on GitHub Pages or another static host.
 
-## Before publishing
+## Demo content to replace before publishing
 
-The repository did not include verified company details, so replace the following demo content with approved business information:
+All business details and project material are placeholders. Confirm or replace these items before launch:
 
-- **Phone and email:** Update `hello@apexcommercialroofing.com` and `(800) 555-0100` (including `mailto:` and `tel:` links) with the company’s real contact details. The current phone number is a placeholder.
-- **Service area and map:** Replace the generic service-area copy and Google Maps search embed with the actual coverage area and business location/map pin.
-- **Testimonials:** Replace the clearly marked sample quote and attribution with an approved customer testimonial, or remove the section until one is available.
-- **Project gallery:** Replace illustrative stock photography and captions with actual Apex project photos and accurate project details. Ensure the company has permission to use all images.
-- **Form delivery:** The quote form validates entries and opens a prefilled email to the placeholder address; it does not transmit submissions to a server. Set the correct recipient and connect a secure form endpoint or CRM for direct submission.
-- **Services and claims:** Confirm that the listed services, availability, and all copy reflect the company’s actual offerings before launch.
+- **Phone and email:** `(800) 555-0100` and `hello@apexcommercialroofing.com`, including `tel:`, `mailto:`, and the form recipient.
+- **Office, map, and service area:** `123 Example Avenue, Austin, TX 78701` and the Google Maps embed are illustrative. Update the address, map pin, service-area copy, and structured data.
+- **Testimonial:** The quote and attribution are explicitly sample content. Replace with an approved customer testimonial or remove the section.
+- **Project gallery and imagery:** Current images are illustrative stock photography, not Apex project documentation. Replace with approved photos and accurate project descriptions; obtain usage permission.
+- **Quote form:** Client-side validation prepares an email using the visitor’s mail app; it does not send or store submissions. Connect a secure form service or backend for production.
+- **Services and claims:** Verify that listed services and all copy reflect the actual business.
 
-The site uses Google Fonts, Unsplash-hosted illustrative photos, and a Google Maps embed, so those sections require an internet connection.
+The page uses Google Fonts, Unsplash-hosted images, and a Google Maps embed, requiring an internet connection. If needed, self-host assets and configure a Content Security Policy before deployment.
